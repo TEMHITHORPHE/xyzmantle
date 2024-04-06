@@ -3,8 +3,8 @@
 import { WagmiProvider } from 'wagmi';
 import { mainnet, polygon, optimism, arbitrum, base, } from 'wagmi/chains';
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-import { getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit';
-import { rainbowWallet } from '@rainbow-me/rainbowkit/wallets';
+import { darkTheme, getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit';
+import { bybitWallet, metaMaskWallet, tokenPocketWallet , bitgetWallet, coinbaseWallet, rabbyWallet, coin98Wallet, walletConnectWallet } from '@rainbow-me/rainbowkit/wallets';
 
 import '@rainbow-me/rainbowkit/styles.css';
 
@@ -44,10 +44,8 @@ const config = getDefaultConfig({
     chains: [mainnet, polygon, optimism, arbitrum, base],
     ssr: true, // If your dApp uses server side rendering (SSR)
     wallets: [
-        {
-            groupName: 'Popular',
-            wallets: [rainbowWallet],
-        },
+        { groupName: 'Popular', wallets: [metaMaskWallet, walletConnectWallet] },
+        { groupName: 'Others wallet', wallets: [bybitWallet, bitgetWallet, tokenPocketWallet, rabbyWallet, coinbaseWallet] }
     ]
 });
 
@@ -57,7 +55,10 @@ function WagmiRainbowKitProvider({ children }) {
     return (
         <WagmiProvider config={config}>
             <QueryClientProvider client={queryClient}>
-                <RainbowKitProvider
+                <RainbowKitProvider modalSize='wide'
+                    theme={darkTheme({
+                        // accentColor: 'white'
+                    })}
                     appInfo={{
                         disclaimer: ({ Text, Link }) => (
                             <Text>
