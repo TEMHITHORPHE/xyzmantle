@@ -45,7 +45,7 @@ const config = getDefaultConfig({
     ssr: true, // If your dApp uses server side rendering (SSR)
     wallets: [
         { groupName: 'Popular', wallets: [metaMaskWallet, walletConnectWallet] },
-        { groupName: 'Others wallet', wallets: [bybitWallet, bitgetWallet, tokenPocketWallet, rabbyWallet, coinbaseWallet] }
+        { groupName: 'Others wallet', wallets: [bybitWallet, bitgetWallet, tokenPocketWallet, rabbyWallet, coinbaseWallet, coin98Wallet] }
     ]
 });
 
@@ -58,7 +58,7 @@ function WagmiRainbowKitProvider({ children }) {
                 <RainbowKitProvider modalSize='wide'
                     theme={darkTheme({
                         accentColor: '#65b3ae',
-                        
+
                     })}
                     appInfo={{
                         disclaimer: ({ Text, Link }) => (
