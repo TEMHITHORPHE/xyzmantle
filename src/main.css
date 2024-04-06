@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'GT-Walsheim';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    /* Read next point */
+    unicode-range: U+000-5FF;
+    /* Download only latin glyphs */
+    src: local(''), url('/public/GT-Walsheim-Regular-Trial-BF651b7fc71a47d.otf') format('otf'), url('/public/GT-Walsheim-Bold-Trial-BF651b7fc737c57.otf') format('otf');
+}
+
+
 
 .style-0 {
     cursor: auto;
@@ -79,7 +91,7 @@
 
 .style-5 {
     color: transparent;
-    max-width:100%;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -107,7 +119,7 @@
 
 .style-7 {
     outline: none;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     display: flex;
     box-sizing: border-box;
@@ -609,7 +621,8 @@
 }
 
 .style-39 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -634,7 +647,8 @@
 }
 
 .style-41 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -659,7 +673,8 @@
 }
 
 .style-43 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -685,7 +700,8 @@
 }
 
 .style-45 {
-    outline: none;box-sizing:border-box;
+    outline: none;
+    box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     display: flex;
     box-sizing: border-box;
@@ -762,7 +778,7 @@
 
 .style-50 {
     top: 0;
-    display:none;
+    display: none;
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: fixed;
@@ -778,7 +794,7 @@
 
 .style-51 {
     top: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: fixed;
     display: block;
@@ -842,7 +858,8 @@
 }
 
 .style-55 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -868,7 +885,8 @@
 }
 
 .style-57 {
-    outline: none;box-sizing:border-box;
+    outline: none;
+    box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     display: flex;
     box-sizing: border-box;
@@ -1083,7 +1101,7 @@
     font-size: 16px;
     cursor: pointer;
     appearance: button;
-    background-color: rgba(204, 233, 231, 0.408);
+    /* background-color: rgba(204, 233, 231, 0.408); */
     background-image: none;
     text-transform: capitalize;
     font-family: GT-Walsheim, sans-serif;
@@ -2397,7 +2415,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: -100px;
     right: 0px;
     width: 530px;
@@ -2415,7 +2433,8 @@
     top: 0;
     right: 0;
     bottom: 0;
-    color: transparent; object-fit:contain;
+    color: transparent;
+    object-fit: contain;
     object-position: 100% 0%;
     max-width: 100%;
     display: block;
@@ -2434,7 +2453,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     width: 486.43px;
     height: 405.352px;
     left: -185.68px;
@@ -2578,7 +2597,7 @@
     font-size: 16px;
     cursor: pointer;
     appearance: button;
-    background-color: rgba(204, 233, 231, 0.408);
+    /* background-color: rgba(204, 233, 231, 0.408); */
     background-image: none;
     text-transform: capitalize;
     font-family: GT-Walsheim, sans-serif;
@@ -2935,7 +2954,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: -10px;
     right: 100px;
     width: 400px;
@@ -2953,7 +2972,8 @@
     top: 0;
     right: 0;
     bottom: 0;
-    color: transparent; object-fit:contain;
+    color: transparent;
+    object-fit: contain;
     object-position: 100% 0%;
     max-width: 100%;
     display: block;
@@ -3017,7 +3037,8 @@
 }
 
 .style-185 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -3118,7 +3139,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: -20px;
     right: 80px;
     width: 500px;
@@ -3136,7 +3157,8 @@
     top: 0;
     right: 0;
     bottom: 0;
-    color: transparent; object-fit:contain;
+    color: transparent;
+    object-fit: contain;
     object-position: 100% 0%;
     max-width: 100%;
     display: block;
@@ -3320,7 +3342,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: 0px;
     right: 0px;
     width: 690px;
@@ -3338,7 +3360,8 @@
     top: 0;
     right: 0;
     bottom: 0;
-    color: transparent; object-fit:contain;
+    color: transparent;
+    object-fit: contain;
     object-position: 100% 0%;
     max-width: 100%;
     display: block;
@@ -3577,7 +3600,7 @@
     box-sizing: border-box;
     border: 0px solid rgb(229, 231, 235);
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: 0px;
     right: 0px;
     width: 500px;
@@ -3595,7 +3618,8 @@
     top: 0;
     right: 0;
     bottom: 0;
-    color: transparent; object-fit:contain;
+    color: transparent;
+    object-fit: contain;
     object-position: 100% 0%;
     max-width: 100%;
     display: block;
@@ -5128,7 +5152,8 @@
 }
 
 .style-356 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -5193,7 +5218,7 @@
     font-size: 16px;
     cursor: pointer;
     appearance: button;
-    background-color: rgba(204, 233, 231, 0.408);
+    /* background-color: rgba(204, 233, 231, 0.408); */
     background-image: none;
     text-transform: capitalize;
     font-family: GT-Walsheim, sans-serif;
@@ -5284,7 +5309,8 @@
 }
 
 .style-367 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -5349,7 +5375,7 @@
     font-size: 16px;
     cursor: pointer;
     appearance: button;
-    background-color: rgba(204, 233, 231, 0.408);
+    /* background-color: rgba(204, 233, 231, 0.408); */
     background-image: none;
     text-transform: capitalize;
     font-family: GT-Walsheim, sans-serif;
@@ -5440,7 +5466,8 @@
 }
 
 .style-378 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -5505,7 +5532,7 @@
     font-size: 16px;
     cursor: pointer;
     appearance: button;
-    background-color: rgba(204, 233, 231, 0.408);
+    /* background-color: rgba(204, 233, 231, 0.408); */
     background-image: none;
     text-transform: capitalize;
     font-family: GT-Walsheim, sans-serif;
@@ -5614,7 +5641,8 @@
     right: 0;
     bottom: 0;
     object-fit: contain;
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     display: block;
     vertical-align: middle;
     box-sizing: border-box;
@@ -5780,7 +5808,8 @@
 }
 
 .style-402 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -5904,7 +5933,8 @@
 }
 
 .style-410 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -6028,7 +6058,8 @@
 }
 
 .style-418 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
@@ -6152,7 +6183,8 @@
 }
 
 .style-426 {
-    color: transparent;max-width:100%;
+    color: transparent;
+    max-width: 100%;
     height: auto;
     display: block;
     vertical-align: middle;
