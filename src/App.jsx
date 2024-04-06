@@ -230,7 +230,7 @@ function App() {
                       height={14}
                       decoding="async"
                       data-nimg={1}
-                      src="/_next/static/media/X.10d54851.svg"
+                      src="/X.10d54851.svg"
                       className="style-39"
                     />
                   </a>
@@ -246,7 +246,7 @@ function App() {
                       height={13}
                       decoding="async"
                       data-nimg={1}
-                      src="/_next/static/media/dicord.121e4489.svg"
+                      src="/dicord.121e4489.svg"
                       className="style-41"
                     />
                   </a>
@@ -262,7 +262,7 @@ function App() {
                       height={16}
                       decoding="async"
                       data-nimg={1}
-                      src="/_next/static/media/telegram.19a5a5db.svg"
+                      src="/telegram.19a5a5db.svg"
                       className="style-43"
                     />
                   </a>
@@ -400,7 +400,7 @@ function App() {
               </p>
               <div className="style-70">
                 <a
-                  href="https://bridge.mantle.xyz/"
+                  href="/bridge"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="style-71"
@@ -493,8 +493,8 @@ function App() {
                         data-nimg="fill"
                         className="style-94"
                         sizes="100vw"
-                        srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=3840&q=75 3840w"
-                        src="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=3840&q=75"
+                        // srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F72e80299-c67b-4de7-af7d-bde6589f8452.jpeg&w=3840&q=75 3840w"
+                        src="/72e80299-c67b-4de7-af7d-bde6589f8452.jpeg"
                       />
                     </a>
                     <a
@@ -520,15 +520,15 @@ function App() {
                         data-nimg="fill"
                         className="style-99"
                         sizes="100vw"
-                        srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=3840&q=75 3840w"
-                        src="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=3840&q=75"
+                        // srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fbe93f672-779f-4d1c-b74a-b005e36fa4ce.webp&w=3840&q=75 3840w"
+                        src="/be93f672-779f-4d1c-b74a-b005e36fa4ce.webp"
                       />
                     </a>
                     <a
                       target="_blank"
                       rel="noreferrer noopener"
                       className="style-100"
-                      href="https://bridge.mantle.xyz/"
+                      href="/bridge"
                     >
                       <button type="button" className="style-101">
                         Bridge to Mantle
@@ -544,8 +544,8 @@ function App() {
                         data-nimg="fill"
                         className="style-104"
                         sizes="100vw"
-                        srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=3840&q=75 3840w"
-                        src="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=3840&q=75"
+                        // srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2F29438e05-9d10-41ac-a2e1-50c801c6705f.jpg&w=3840&q=75 3840w"
+                        src="/29438e05-9d10-41ac-a2e1-50c801c6705f.jpg"
                       />
                     </a>
                     <a
@@ -568,8 +568,8 @@ function App() {
                         data-nimg="fill"
                         className="style-109"
                         sizes="100vw"
-                        srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=3840&q=75 3840w"
-                        src="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=3840&q=75"
+                        // srcSet="/_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcms.mantle.xyz%2Fassets%2Fcf56c23c-01ee-4fc3-9345-afd712afff0d.jpg&w=3840&q=75 3840w"
+                        src="/cf56c23c-01ee-4fc3-9345-afd712afff0d.jpg"
                       />
                     </a>
                     <a
@@ -614,7 +614,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer noopener"
                     className="style-122"
-                    href="https://bridge.mantle.xyz/"
+                    href="/bridge"
                   >
                     <button type="button" className="style-123">
                       Bridge to Mantle
@@ -690,8 +690,8 @@ function App() {
                       data-nimg="fill"
                       className="style-142"
                       sizes="100vw"
-                      srcSet="/_next/image?url=%2Fsecondary-3d-element-rotated.png&w=640&q=75 640w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=750&q=75 750w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=828&q=75 828w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1080&q=75 1080w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1200&q=75 1200w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1920&q=75 1920w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=2048&q=75 2048w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=3840&q=75 3840w"
-                      src="/_next/image?url=%2Fsecondary-3d-element-rotated.png&w=3840&q=75"
+                      // srcSet="/_next/image?url=%2Fsecondary-3d-element-rotated.png&w=640&q=75 640w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=750&q=75 750w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=828&q=75 828w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1080&q=75 1080w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1200&q=75 1200w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=1920&q=75 1920w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=2048&q=75 2048w, /_next/image?url=%2Fsecondary-3d-element-rotated.png&w=3840&q=75 3840w"
+                      src="/secondary-3d-element-rotated.png"
                     />
                   </div>
                   <div className="style-143" />
@@ -715,7 +715,7 @@ function App() {
                     <div className="style-152">
                       <div className="style-153">
                         <a
-                          href="https://bridge.mantle.xyz"
+                          href="/bridge"
                           target="_blank"
                           rel="noreferrer noopener"
                           className="style-154"
@@ -808,8 +808,8 @@ function App() {
                       data-nimg="fill"
                       className="style-180"
                       sizes="100vw"
-                      srcSet="/_next/image?url=%2Fball.png&w=640&q=75 640w, /_next/image?url=%2Fball.png&w=750&q=75 750w, /_next/image?url=%2Fball.png&w=828&q=75 828w, /_next/image?url=%2Fball.png&w=1080&q=75 1080w, /_next/image?url=%2Fball.png&w=1200&q=75 1200w, /_next/image?url=%2Fball.png&w=1920&q=75 1920w, /_next/image?url=%2Fball.png&w=2048&q=75 2048w, /_next/image?url=%2Fball.png&w=3840&q=75 3840w"
-                      src="/_next/image?url=%2Fball.png&w=3840&q=75"
+                      // srcSet="/_next/image?url=%2Fball.png&w=640&q=75 640w, /_next/image?url=%2Fball.png&w=750&q=75 750w, /_next/image?url=%2Fball.png&w=828&q=75 828w, /_next/image?url=%2Fball.png&w=1080&q=75 1080w, /_next/image?url=%2Fball.png&w=1200&q=75 1200w, /_next/image?url=%2Fball.png&w=1920&q=75 1920w, /_next/image?url=%2Fball.png&w=2048&q=75 2048w, /_next/image?url=%2Fball.png&w=3840&q=75 3840w"
+                      src="/ball.png"
                     />
                   </div>
                   <div className="style-181">
@@ -860,8 +860,8 @@ function App() {
                       data-nimg="fill"
                       className="style-192"
                       sizes="100vw"
-                      srcSet="/_next/image?url=%2Fproduct-illustration.png&w=640&q=75 640w, /_next/image?url=%2Fproduct-illustration.png&w=750&q=75 750w, /_next/image?url=%2Fproduct-illustration.png&w=828&q=75 828w, /_next/image?url=%2Fproduct-illustration.png&w=1080&q=75 1080w, /_next/image?url=%2Fproduct-illustration.png&w=1200&q=75 1200w, /_next/image?url=%2Fproduct-illustration.png&w=1920&q=75 1920w, /_next/image?url=%2Fproduct-illustration.png&w=2048&q=75 2048w, /_next/image?url=%2Fproduct-illustration.png&w=3840&q=75 3840w"
-                      src="/_next/image?url=%2Fproduct-illustration.png&w=3840&q=75"
+                      // srcSet="/_next/image?url=%2Fproduct-illustration.png&w=640&q=75 640w, /_next/image?url=%2Fproduct-illustration.png&w=750&q=75 750w, /_next/image?url=%2Fproduct-illustration.png&w=828&q=75 828w, /_next/image?url=%2Fproduct-illustration.png&w=1080&q=75 1080w, /_next/image?url=%2Fproduct-illustration.png&w=1200&q=75 1200w, /_next/image?url=%2Fproduct-illustration.png&w=1920&q=75 1920w, /_next/image?url=%2Fproduct-illustration.png&w=2048&q=75 2048w, /_next/image?url=%2Fproduct-illustration.png&w=3840&q=75 3840w"
+                      src="/product-illustration.png"
                     />
                   </div>
                   <div className="style-193">
@@ -906,8 +906,8 @@ function App() {
                       data-nimg="fill"
                       className="style-205"
                       sizes="100vw"
-                      srcSet="/_next/image?url=%2Felements_illustration.png&w=640&q=75 640w, /_next/image?url=%2Felements_illustration.png&w=750&q=75 750w, /_next/image?url=%2Felements_illustration.png&w=828&q=75 828w, /_next/image?url=%2Felements_illustration.png&w=1080&q=75 1080w, /_next/image?url=%2Felements_illustration.png&w=1200&q=75 1200w, /_next/image?url=%2Felements_illustration.png&w=1920&q=75 1920w, /_next/image?url=%2Felements_illustration.png&w=2048&q=75 2048w, /_next/image?url=%2Felements_illustration.png&w=3840&q=75 3840w"
-                      src="/_next/image?url=%2Felements_illustration.png&w=3840&q=75"
+                      // srcSet="/_next/image?url=%2Felements_illustration.png&w=640&q=75 640w, /_next/image?url=%2Felements_illustration.png&w=750&q=75 750w, /_next/image?url=%2Felements_illustration.png&w=828&q=75 828w, /_next/image?url=%2Felements_illustration.png&w=1080&q=75 1080w, /_next/image?url=%2Felements_illustration.png&w=1200&q=75 1200w, /_next/image?url=%2Felements_illustration.png&w=1920&q=75 1920w, /_next/image?url=%2Felements_illustration.png&w=2048&q=75 2048w, /_next/image?url=%2Felements_illustration.png&w=3840&q=75 3840w"
+                      src="/elements_illustration.png"
                     />
                   </div>
                   <div className="style-206">
@@ -965,8 +965,8 @@ function App() {
                       data-nimg="fill"
                       className="style-220"
                       sizes="100vw"
-                      srcSet="/_next/image?url=%2Frestaking-ilustration.png&w=640&q=75 640w, /_next/image?url=%2Frestaking-ilustration.png&w=750&q=75 750w, /_next/image?url=%2Frestaking-ilustration.png&w=828&q=75 828w, /_next/image?url=%2Frestaking-ilustration.png&w=1080&q=75 1080w, /_next/image?url=%2Frestaking-ilustration.png&w=1200&q=75 1200w, /_next/image?url=%2Frestaking-ilustration.png&w=1920&q=75 1920w, /_next/image?url=%2Frestaking-ilustration.png&w=2048&q=75 2048w, /_next/image?url=%2Frestaking-ilustration.png&w=3840&q=75 3840w"
-                      src="/_next/image?url=%2Frestaking-ilustration.png&w=3840&q=75"
+                      // srcSet="/_next/image?url=%2Frestaking-ilustration.png&w=640&q=75 640w, /_next/image?url=%2Frestaking-ilustration.png&w=750&q=75 750w, /_next/image?url=%2Frestaking-ilustration.png&w=828&q=75 828w, /_next/image?url=%2Frestaking-ilustration.png&w=1080&q=75 1080w, /_next/image?url=%2Frestaking-ilustration.png&w=1200&q=75 1200w, /_next/image?url=%2Frestaking-ilustration.png&w=1920&q=75 1920w, /_next/image?url=%2Frestaking-ilustration.png&w=2048&q=75 2048w, /_next/image?url=%2Frestaking-ilustration.png&w=3840&q=75 3840w"
+                      src="/restaking-ilustration.png"
                     />
                   </div>
                   <div className="style-221">
@@ -1018,8 +1018,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x3c3a81e81dc49a522a592e7622a7e711c06bf354%2Fa443c78c33704d48f06e5686bb87f85e.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x3c3a81e81dc49a522a592e7622a7e711c06bf354%2Fa443c78c33704d48f06e5686bb87f85e.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x3c3a81e81dc49a522a592e7622a7e711c06bf354%2Fa443c78c33704d48f06e5686bb87f85e.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x3c3a81e81dc49a522a592e7622a7e711c06bf354%2Fa443c78c33704d48f06e5686bb87f85e.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x3c3a81e81dc49a522a592e7622a7e711c06bf354%2Fa443c78c33704d48f06e5686bb87f85e.png&w=48&q=75 2x"
+                          src="/a443c78c33704d48f06e5686bb87f85e.png"
                           className="style-242"
                         />
                       </div>
@@ -1048,8 +1048,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa%2Fc6a5196a03ec0dcb0f0b522b30579f61.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa%2Fc6a5196a03ec0dcb0f0b522b30579f61.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa%2Fc6a5196a03ec0dcb0f0b522b30579f61.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa%2Fc6a5196a03ec0dcb0f0b522b30579f61.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa%2Fc6a5196a03ec0dcb0f0b522b30579f61.png&w=48&q=75 2x"
+                          src="/c6a5196a03ec0dcb0f0b522b30579f61.png"
                           className="style-255"
                         />
                       </div>
@@ -1078,8 +1078,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fproject%2Flogo_url%2Feigenlayer%2F60961d60d58c7619cf845ff06b2236af.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fproject%2Flogo_url%2Feigenlayer%2F60961d60d58c7619cf845ff06b2236af.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fproject%2Flogo_url%2Feigenlayer%2F60961d60d58c7619cf845ff06b2236af.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fproject%2Flogo_url%2Feigenlayer%2F60961d60d58c7619cf845ff06b2236af.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fproject%2Flogo_url%2Feigenlayer%2F60961d60d58c7619cf845ff06b2236af.png&w=48&q=75 2x"
+                          src="/60961d60d58c7619cf845ff06b2236af.png"
                           className="style-268"
                         />
                       </div>
@@ -1108,8 +1108,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Ftoken%2Flogo_url%2Feth%2F935ae4e4d1d12d59a99717a24f2540b5.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Ftoken%2Flogo_url%2Feth%2F935ae4e4d1d12d59a99717a24f2540b5.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Ftoken%2Flogo_url%2Feth%2F935ae4e4d1d12d59a99717a24f2540b5.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Ftoken%2Flogo_url%2Feth%2F935ae4e4d1d12d59a99717a24f2540b5.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Ftoken%2Flogo_url%2Feth%2F935ae4e4d1d12d59a99717a24f2540b5.png&w=48&q=75 2x"
+                          src="/935ae4e4d1d12d59a99717a24f2540b5.png"
                           className="style-281"
                         />
                       </div>
@@ -1138,8 +1138,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x4c9edd5852cd905f086c759e8383e09bff1e68b3%2F9ca0ec537ffcecb6026b47cce6437659.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x4c9edd5852cd905f086c759e8383e09bff1e68b3%2F9ca0ec537ffcecb6026b47cce6437659.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x4c9edd5852cd905f086c759e8383e09bff1e68b3%2F9ca0ec537ffcecb6026b47cce6437659.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x4c9edd5852cd905f086c759e8383e09bff1e68b3%2F9ca0ec537ffcecb6026b47cce6437659.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Feth_token%2Flogo_url%2F0x4c9edd5852cd905f086c759e8383e09bff1e68b3%2F9ca0ec537ffcecb6026b47cce6437659.png&w=48&q=75 2x"
+                          src="/9ca0ec537ffcecb6026b47cce6437659.png"
                           className="style-294"
                         />
                       </div>
@@ -1168,8 +1168,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fmnt_token%2Flogo_url%2F0x5be26527e817998a7206475496fde1e68957c5a6%2F4c1b30d2838237366a7bf62db849eed9.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fmnt_token%2Flogo_url%2F0x5be26527e817998a7206475496fde1e68957c5a6%2F4c1b30d2838237366a7bf62db849eed9.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fmnt_token%2Flogo_url%2F0x5be26527e817998a7206475496fde1e68957c5a6%2F4c1b30d2838237366a7bf62db849eed9.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fmnt_token%2Flogo_url%2F0x5be26527e817998a7206475496fde1e68957c5a6%2F4c1b30d2838237366a7bf62db849eed9.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fmnt_token%2Flogo_url%2F0x5be26527e817998a7206475496fde1e68957c5a6%2F4c1b30d2838237366a7bf62db849eed9.png&w=48&q=75 2x"
+                          src="/4c1b30d2838237366a7bf62db849eed9.png"
                           className="style-307"
                         />
                       </div>
@@ -1198,8 +1198,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdt%2F23af7472292cb41dc39b3f1146ead0fe.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdt%2F23af7472292cb41dc39b3f1146ead0fe.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdt%2F23af7472292cb41dc39b3f1146ead0fe.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdt%2F23af7472292cb41dc39b3f1146ead0fe.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdt%2F23af7472292cb41dc39b3f1146ead0fe.png&w=48&q=75 2x"
+                          src="/23af7472292cb41dc39b3f1146ead0fe.png"
                           className="style-320"
                         />
                       </div>
@@ -1228,8 +1228,8 @@ function App() {
                           height={24}
                           decoding="async"
                           data-nimg={1}
-                          srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdc%2Fe87790bfe0b3f2ea855dc29069b38818.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdc%2Fe87790bfe0b3f2ea855dc29069b38818.png&w=48&q=75 2x"
-                          src="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdc%2Fe87790bfe0b3f2ea855dc29069b38818.png&w=48&q=75"
+                          // srcSet="/_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdc%2Fe87790bfe0b3f2ea855dc29069b38818.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fstatic.debank.com%2Fimage%2Fcoin%2Flogo_url%2Fusdc%2Fe87790bfe0b3f2ea855dc29069b38818.png&w=48&q=75 2x"
+                          src="/e87790bfe0b3f2ea855dc29069b38818.png"
                           className="style-333"
                         />
                       </div>
@@ -1284,8 +1284,8 @@ function App() {
                             decoding="async"
                             data-nimg={1}
                             className="style-356"
-                            srcSet="/_next/image?url=%2Flogo-mantle-minimal.png&w=64&q=75 1x, /_next/image?url=%2Flogo-mantle-minimal.png&w=128&q=75 2x"
-                            src="/_next/image?url=%2Flogo-mantle-minimal.png&w=128&q=75"
+                            // srcSet="/_next/image?url=%2Flogo-mantle-minimal.png&w=64&q=75 1x, /_next/image?url=%2Flogo-mantle-minimal.png&w=128&q=75 2x"
+                            src="/logo-mantle-minimal.png"
                           />
                         </div>
                         <h3 className="style-357">Mantle EcoFund</h3>
@@ -1317,8 +1317,8 @@ function App() {
                             decoding="async"
                             data-nimg={1}
                             className="style-367"
-                            srcSet="/_next/image?url=%2Flogo-edudao.png&w=64&q=75 1x, /_next/image?url=%2Flogo-edudao.png&w=128&q=75 2x"
-                            src="/_next/image?url=%2Flogo-edudao.png&w=128&q=75"
+                            // srcSet="/_next/image?url=%2Flogo-edudao.png&w=64&q=75 1x, /_next/image?url=%2Flogo-edudao.png&w=128&q=75 2x"
+                            src="/logo-edudao.png"
                           />
                         </div>
                         <h3 className="style-368">EduDAO</h3>
@@ -1357,8 +1357,8 @@ function App() {
                             decoding="async"
                             data-nimg={1}
                             className="style-378"
-                            srcSet="/_next/image?url=%2Flogo-game7.png&w=64&q=75 1x, /_next/image?url=%2Flogo-game7.png&w=128&q=75 2x"
-                            src="/_next/image?url=%2Flogo-game7.png&w=128&q=75"
+                            // srcSet="/_next/image?url=%2Flogo-game7.png&w=64&q=75 1x, /_next/image?url=%2Flogo-game7.png&w=128&q=75 2x"
+                            src="/logo-game7.png"
                           />
                         </div>
                         <h3 className="style-379">Game7</h3>
@@ -1410,8 +1410,8 @@ function App() {
                     decoding="async"
                     data-nimg="fill"
                     sizes="100vw"
-                    srcSet="/_next/image?url=%2Fecosystem-graphic-l.png&w=640&q=100 640w, /_next/image?url=%2Fecosystem-graphic-l.png&w=750&q=100 750w, /_next/image?url=%2Fecosystem-graphic-l.png&w=828&q=100 828w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1080&q=100 1080w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1200&q=100 1200w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1920&q=100 1920w, /_next/image?url=%2Fecosystem-graphic-l.png&w=2048&q=100 2048w, /_next/image?url=%2Fecosystem-graphic-l.png&w=3840&q=100 3840w"
-                    src="/_next/image?url=%2Fecosystem-graphic-l.png&w=3840&q=100"
+                    // srcSet="/_next/image?url=%2Fecosystem-graphic-l.png&w=640&q=100 640w, /_next/image?url=%2Fecosystem-graphic-l.png&w=750&q=100 750w, /_next/image?url=%2Fecosystem-graphic-l.png&w=828&q=100 828w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1080&q=100 1080w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1200&q=100 1200w, /_next/image?url=%2Fecosystem-graphic-l.png&w=1920&q=100 1920w, /_next/image?url=%2Fecosystem-graphic-l.png&w=2048&q=100 2048w, /_next/image?url=%2Fecosystem-graphic-l.png&w=3840&q=100 3840w"
+                    src="/ecosystem-graphic-l.png"
                     className="style-391"
                   />
                 </picture>
@@ -1450,7 +1450,7 @@ function App() {
                         decoding="async"
                         data-nimg={1}
                         className="style-402"
-                        src="/_next/static/media/X.10d54851.svg"
+                        src="/X.10d54851.svg"
                       />
                     </a>
                   </div>
@@ -1576,7 +1576,7 @@ function App() {
                           decoding="async"
                           data-nimg={1}
                           className="style-433"
-                          src="/_next/static/media/LOGO.919a8f2b.svg"
+                          src="/LOGO.919a8f2b.svg"
                         />
                       </a>
                     </div>
@@ -1593,7 +1593,7 @@ function App() {
                           height={9}
                           decoding="async"
                           data-nimg={1}
-                          src="/_next/static/media/X.10d54851.svg"
+                          src="/X.10d54851.svg"
                           className="style-436"
                         />
                       </a>
@@ -1609,7 +1609,7 @@ function App() {
                           height={10}
                           decoding="async"
                           data-nimg={1}
-                          src="/_next/static/media/dicord.121e4489.svg"
+                          src="/dicord.121e4489.svg"
                           className="style-438"
                         />
                       </a>
@@ -1625,7 +1625,7 @@ function App() {
                           height={12}
                           decoding="async"
                           data-nimg={1}
-                          src="/_next/static/media/telegram.19a5a5db.svg"
+                          src="/telegram.19a5a5db.svg"
                           className="style-440"
                         />
                       </a>
@@ -1651,7 +1651,7 @@ function App() {
                             rel="noreferrer noopener"
                             target="_blank"
                             className="style-449"
-                            href="https://bridge.mantle.xyz/"
+                            href="/bridge"
                           >
                             bridge
                           </a>
@@ -1889,7 +1889,7 @@ function App() {
                       decoding="async"
                       data-nimg={1}
                       className="style-503"
-                      src="/_next/static/media/LangLogo.e26e1c25.svg"
+                      src="/LangLogo.e26e1c25.svg"
                     />
                     <div className="style-504">
                       <div
