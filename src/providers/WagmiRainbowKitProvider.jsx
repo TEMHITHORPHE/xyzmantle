@@ -39,7 +39,7 @@ const queryClient = new QueryClient()
 
 
 const config = getDefaultConfig({
-    appName: 'My RainbowKit App',
+    appName: 'Mantle Bridge',
     projectId: '234567890',
     chains: [mainnet, polygon, optimism, arbitrum, base],
     ssr: true, // If your dApp uses server side rendering (SSR)
