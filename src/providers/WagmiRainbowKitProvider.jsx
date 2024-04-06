@@ -57,7 +57,8 @@ function WagmiRainbowKitProvider({ children }) {
             <QueryClientProvider client={queryClient}>
                 <RainbowKitProvider modalSize='wide'
                     theme={darkTheme({
-                        // accentColor: 'white'
+                        accentColor: '#65b3ae',
+                        
                     })}
                     appInfo={{
                         disclaimer: ({ Text, Link }) => (
