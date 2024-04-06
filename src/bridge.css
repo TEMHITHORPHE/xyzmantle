@@ -1,7 +1,9 @@
 
 
 #bridge-bg {
-    background-image: url(/public/bridge-bg.png);
+    background-image: url(/bridge-bg.png);
     background-position: center;
     background-size: cover;
+    padding: 8px;
 }
+
