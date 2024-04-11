@@ -7503,6 +7503,32 @@ body {
     }
 
     .style-394 {
-    grid-template-columns: unset;
+        grid-template-columns: unset;
     }
+
+    .style-429 {
+        grid-template-columns: unset;
+        justify-content: start;
+    }
+
+    .style-442 {
+        justify-content: start;
+    }
+
+    .style-456 {
+        justify-content: start;
+    }
+
+    .style-472 {
+        justify-content: start;
+    }
+
+    .style-486 {
+        justify-content: start;
+    }
+
+    .style-502 {
+        justify-content: start;
+    }
+
 }
