@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,22 +19,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  height: 100vh;
+}
+
+
+#bridge-main {
+  background-image: url(/bridge-bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 8px;
+  height: 100vh;
+  overflow-x: scroll;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -46,9 +62,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -56,13 +74,44 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    /* color: #213547; */
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+input[type=number] {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* [data-rk] .iekbcc0 {
+  width: 100%;
+} */
+
+.radix-style-1 {
+  --radix-accordion-content-height: var(--radix-collapsible-content-height);
+  --radix-accordion-content-width: var(--radix-collapsible-content-width);
+}
+
+.radix-style-2 {
+  --radix-accordion-content-height: var(--radix-collapsible-content-height);
+  --radix-accordion-content-width: var(--radix-collapsible-content-width);
 }
