@@ -120,3 +120,14 @@ input[type=number]::-webkit-outer-spin-button {
   --tw-text-opacity: 1;
   color: rgb(196 196 196/var(--tw-text-opacity));
 }
+
+.bg-button-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 179 174/var(--tw-bg-opacity));
+}
+
+.hover\:bg-button-primaryHover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 157 152/var(--tw-bg-opacity));
+  border-color: transparent;
+}

@@ -42,10 +42,10 @@ function MantleBridge() {
                         </a>
                     </span>
                     <span>
-                        <a target="_self" className="focus:outline-none transition ease-in-out duration-300 cursor-pointer text-type-secondary hover:text-type-primary" rel="noreferrer noopener" href="/account/deposit">Account</a></span></div><div className="flex justify-end gap-10"><div className="grid hidden lg:block">
+                        <a target="_self" className="focus:outline-0 transition ease-in-out duration-300 cursor-pointer text-type-secondary hover:text-type-primary" rel="noreferrer noopener" href="/account/deposit">Account</a></span></div><div className="flex justify-end gap-10"><div className="grid hidden lg:block">
                             <div className="flex flex-row gap-4 w-full">
                                 <div onClick={() => openConnectModal()}>
-                                    <button className="undefined h-fit rounded-lg text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-fit  px-4 py-2 text-sm text-black bg-button-primary hover:bg-button-primaryHover disabled:hover:bg-transparent ">Connect Wallet</button>
+                                    <button className=" h-fit rounded-lg text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-fit  px-4 py-2 text-sm text-black bg-button-primary focus:outline-0 hover:bg-button-primaryHover disabled:hover:bg-transparent ">Connect Wallet</button>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function MantleBridge() {
                                     ({ selected }) => (
                                         <button
                                             id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
-                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg py-2.5 text-sm font-medium transition-all px-2.5
+                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
                                              ring-white ring-opacity-0 ring-offset-0 ring-offset-white focus:outline-none focus:ring-2
                                                `}
                                         >
@@ -83,7 +83,7 @@ function MantleBridge() {
                                     ({ selected }) => (
                                         <button
                                             id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
-                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg py-2.5 text-sm font-medium transition-all px-2.5
+                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
                                              ring-white ring-opacity-0 ring-offset-0 ring-offset-white focus:outline-none focus:ring-2
                                                `}
                                         >
