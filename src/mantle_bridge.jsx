@@ -1,17 +1,18 @@
 /* eslint-disable no-empty-pattern */
 
-// import StylishDividerSVG from './assets/stylish-divider.svg'
+import { Tab } from '@headlessui/react';
+import { useConnectModal } from '@rainbow-me/rainbowkit';
+
 import ToolTipSVG from './assets/tooltip.svg'
 import UnCheckedSVG from './assets/unchecked.svg'
 import CheckedSVG from './assets/checked.svg'
+// import StylishDividerSVG from './assets/stylish-divider.svg'
 
-import { Tab } from '@headlessui/react';
-import { InputComboBoxSection } from './InputComboBoxSection';
-// import { InputSection } from './InputSection';
 import Faqs from './Faqs';
+import { InputComboBoxSection } from './InputComboBoxSection';
 import { BridgePageNotif } from './components/BridgePageNotif';
 import BridgePageFooter from './components/BridgePageFooter';
-import { useConnectModal } from '@rainbow-me/rainbowkit';
+// import { InputSection } from './InputSection';
 
 
 function MantleBridge() {
@@ -43,12 +44,12 @@ function MantleBridge() {
                     <span>
                         <a target="_self" className="focus:outline-none transition ease-in-out duration-300 cursor-pointer text-type-secondary hover:text-type-primary" rel="noreferrer noopener" href="/account/deposit">Account</a></span></div><div className="flex justify-end gap-10"><div className="grid hidden lg:block">
                             <div className="flex flex-row gap-4 w-full">
-                                <div>
+                                <div onClick={() => openConnectModal()}>
                                     <button className="undefined h-fit rounded-lg text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-fit  px-4 py-2 text-sm text-black bg-button-primary hover:bg-button-primaryHover disabled:hover:bg-transparent ">Connect Wallet</button>
                                 </div>
                             </div>
                         </div>
-                    <div onClick={() => openConnectModal()} className="grid lg:hidden">
+                    <div className="grid lg:hidden">
                         <button type="button" className="bg-transparent -m-2.5 inline-flex items-center justify-center rounded-md p-2.5"><span className="sr-only">Open main menu</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="h-8 w-8 text-type-secondary hover:text-type-primary transition ease-in-out duration-300"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                             </svg>
