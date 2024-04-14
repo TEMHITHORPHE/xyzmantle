@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 
+import { useConnectModal } from '@rainbow-me/rainbowkit';
+
 import { InputSection } from './InputSection';
 
 import StylishDividerSVG from './assets/stylish-divider.svg'
 import TinyMantleSVG from './assets/tiny-mantle.svg'
 import MantleSVG from './assets/mantle.svg'
 import TinyEthSVG from './assets/tiny-eth.svg'
-import { ConnectButton, useConnectModal } from '@rainbow-me/rainbowkit';
 
 
 export function InputComboBoxSection({ activeTab }) {
@@ -48,7 +49,7 @@ export function InputComboBoxSection({ activeTab }) {
                         <span className='ml-2 hidden md:block'>
                             MNT
                         </span>
-                        <span className='class="pointer-events-none absolute inset-y-0 right-0 ml-1 flex items-center pr-2'>
+                        <span className='pointer-events-none absolute inset-y-0 right-0 ml-1 flex items-center pr-2'>
                             <svg
                                 className="h-5 w-5 text-white" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 20 20" aria-hidden="true"
                                 height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -71,11 +72,6 @@ export function InputComboBoxSection({ activeTab }) {
         </div>
         <img className='max-w-none -mx-5' src={StylishDividerSVG} alt="" />
         <InputSection activeTab={activeTab} />
-        {/* <ConnectButton
-            label="Connect Wallet"
-            className="h-14 rounded-lg text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-full
-            px-5 py-3 text-base text-black bg-button-primary hover:bg-button-primaryHover disabled:hover:bg-button-disabled"
-        /> */}
         <button onClick={openConnectModal} className="h-14 rounded-lg bg-[#65b3ae] text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-full px-5 py-3 text-base text-black bg-button-primary hover:bg-button-primaryHover disabled:hover:bg-button-disabled" type="button">
             Please connect your wallet
         </button>
