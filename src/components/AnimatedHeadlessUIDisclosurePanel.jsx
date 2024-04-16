@@ -2,8 +2,6 @@
 /* eslint-disable react/prop-types */
 
 import { Transition } from '@headlessui/react';
-import { memo } from 'react';
-
 
 export function AnimatedHeadlessUIDisclosurePanel({ children, isOpen }) {
     
