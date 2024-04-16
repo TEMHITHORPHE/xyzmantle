@@ -20,7 +20,7 @@ function TokenAssetListModal({ isOpen, changeModalState, selectedToken }) {
                                 </svg>
                             </button>
                             <p className="text-[18px] leading-[20px] tracking-[-0.02em] text-left text-type-secondary my-2.5">
-                                Select a token- 
+                                Select a token-
                             </p>
                             <div className="relative flex">
                                 <input type="text" placeholder="Enter name or symbol" className="grow rounded-[10px] bg-black border border-stroke-inputs py-[10.5px] pl-[47px] pr-4 placeholder:text-lg placeholder:text-type-secondary focus:outline-none focus:ring-0 focus:ring-white/70 appearance-none focus:border-white/70" />
@@ -59,12 +59,6 @@ function TokenAssetListModal({ isOpen, changeModalState, selectedToken }) {
                                 ))
                             }
                         </div>
-                        <Dialog.Description>
-                            This will permanently deactivate your account
-                        </Dialog.Description>
-
-                        <button onClick={() => changeModalState(false)}>Deactivate</button>
-                        <button onClick={() => changeModalState(false)}>Cancel</button>
                     </Dialog.Panel>
                 </div>
             </div>
