@@ -2,8 +2,8 @@
 /* eslint-disable react/prop-types */
 
 
-import TinyMantleSVG from './assets/tiny-mantle.svg'
-import TinyEthSVG from './assets/tiny-eth.svg'
+import TinyMantleSVG from '../assets/tiny-mantle.svg'
+import TinyEthSVG from '../assets/tiny-eth.svg'
 
 
 export function InputSection({ activeTab }) {
@@ -33,15 +33,5 @@ export function InputSection({ activeTab }) {
                 <input disabled type="number" placeholder="Unknown. Connect Wallet" className="grow border-0 focus:outline-none rounded-tl-lg rounded-bl-lg bg-black py-1.5 px-3 focus:ring-0 focus:ring-white/70 appearance-none" />
             </div>
         </div>
-        {/* <div className="flex pb-4 items-center pt-4">
-            <p className="GTWalsheimRegular font-normal text-[14px] leading-[20px] text-type-secondary">
-                Your balance:
-            </p>
-            <div className="flex ml-1 space-x-2 items-center">
-                <p className="GTWalsheimRegular font-normal text-[14px] leading-[20px] text-type-secondary">
-                    Connect Wallet.
-                </p>
-            </div>
-        </div> */}
     </div>;
 }

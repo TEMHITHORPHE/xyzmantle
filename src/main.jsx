@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom/client'
 import WagmiRainbowKitProvider from './providers/WagmiRainbowKitProvider.jsx';
 
 import App from './App.jsx'
-import MantleBridge from './mantle_bridge.jsx';
+import MantleBridge from './mantleBridge.jsx';
 // import Bridge from './bridge.jsx';
 import './index.css'
 

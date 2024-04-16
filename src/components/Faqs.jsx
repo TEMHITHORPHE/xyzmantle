@@ -1,49 +1,14 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unescaped-entities */
 
 import { Disclosure } from '@headlessui/react'
-import { AnimatedHeadlessUIDisclosurePanel } from './components/AnimatedHeadlessUIDisclosurePanel'
-import { useState } from 'react'
-
-
-// const FAQs = [
-//     {
-//         question: "How can i qualify for the MNT bonus ?",
-//         answer: "Deposit any token from Ethereum Mainnet to Mantle Network to receive a dust bonus in MNT. Limited to once per wallet address."
-//     },
-//     {
-//         question: "Is there an option for a test drive?",
-//         answer: "You can experience the deposit and withdraw flow by using our simulated testnet. It provides a safe environment to try out the bridge functionality without any real token transactions.",
-//         link: {
-//             url: "https://bridge.testnet.mantle.xyz/",
-//             text: "Try on Testnet Bridge"
-//         }
-//     },
-//     {
-//         question: "What is L1/L2, and what are the required gas fees for deposit and withdrawal?",
-//         answer: ``
-//     },
-//     {
-//         question: ""
-//     },
-//     {
-//         question: ""
-//     },
-//     {
-//         question: ""
-//     },
-//     {
-//         question: ""
-//     },
-//     {
-//         question: ""
-//     }
-// ]
+import { AnimatedHeadlessUIDisclosurePanel } from './AnimatedHeadlessUIDisclosurePanel'
+import { memo, useState } from 'react'
 
 
 function Faqs() {
 
     const [openedPanel, changeOpenedPanel] = useState(0);
-
 
     return (
         <div className='flex flex-col w-full lg:w-auto mt-16 items-center'>
@@ -78,30 +43,46 @@ function Faqs() {
                                             </p>
                                         </Disclosure.Panel>
                                     </AnimatedHeadlessUIDisclosurePanel>
-                                </>)
+                                </>
+                            )
                         }
                     }
                 </Disclosure>
 
                 <Disclosure>
-                    <Disclosure.Button className="py-4 bg-[#000000] w-full text-start hover:border-transparent focus:outline-none">
-                        Is there an option for a test drive?
-                    </Disclosure.Button>
-                    <AnimatedHeadlessUIDisclosurePanel isOpen={openedPanel === 2 ? true : false}>
-                        <Disclosure.Panel className="text-gray-500 mb-4 mx-4">
-                            <p className="GTWalsheimRegular font-normal text-[14px] leading-[20px] text-type-secondary max-w-[90%]">
-                                You can experience the deposit and withdraw flow by using our simulated testnet.
-                                It provides a safe environment to try out the bridge functionality without any real token transactions.
-                                <a
-                                    href="https://bridge.testnet.mantle.xyz/"
-                                    target="__blank" rel="noreferrer"
-                                    className="underline block mt-4"
-                                >
-                                    Learn more
-                                </a>
-                            </p>
-                        </Disclosure.Panel>
-                    </AnimatedHeadlessUIDisclosurePanel>
+                    {
+                        ({ open }) => {
+                            let customOpen = false;
+                            if (open === true) {
+                                changeOpenedPanel(2);   // Update the cuurently opened accordion to itself.
+                                customOpen = true;
+                            }
+                            console.log(openedPanel);
+                            // const customOpen = open &&  ? 
+                            return (
+                                <>
+                                    <Disclosure.Button className="py-4 bg-[#000000] w-full text-start hover:border-transparent focus:outline-none">
+                                        Is there an option for a test drive?
+                                    </Disclosure.Button> 
+                                    <AnimatedHeadlessUIDisclosurePanel isOpen={openedPanel === 2 ? true : false}>
+                                        <Disclosure.Panel className="text-gray-500 mb-4 mx-4">
+                                            <p className="GTWalsheimRegular font-normal text-[14px] leading-[20px] text-type-secondary max-w-[90%]">
+                                                You can experience the deposit and withdraw flow by using our simulated testnet.
+                                                It provides a safe environment to try out the bridge functionality without any real token transactions.
+                                                <a
+                                                    href="https://bridge.testnet.mantle.xyz/"
+                                                    target="__blank" rel="noreferrer"
+                                                    className="underline block mt-4"
+                                                >
+                                                    Learn more
+                                                </a>
+                                            </p>
+                                        </Disclosure.Panel>
+                                    </AnimatedHeadlessUIDisclosurePanel>
+                                </>
+                            )
+                        }
+                    }
                 </Disclosure>
 
                 <Disclosure>
@@ -199,4 +180,4 @@ function Faqs() {
     )
 }
 
-export default Faqs;
+export default memo(Faqs);
