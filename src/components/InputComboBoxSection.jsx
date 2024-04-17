@@ -2,14 +2,15 @@
 /* eslint-disable react/prop-types */
 
 import { memo, useState } from 'react';
+import { useAccount } from 'wagmi';
 import { useConnectModal } from '@rainbow-me/rainbowkit';
 
 import { InputSection } from './InputSection';
+import TokenAssetListModal from './TokenAssetListModal';
 
 import StylishDividerSVG from '../assets/stylish-divider.svg'
 import TinyMantleSVG from '../assets/tiny-mantle.svg'
 import TinyEthSVG from '../assets/tiny-eth.svg'
-import TokenAssetListModal from './TokenAssetListModal';
 
 
 
@@ -17,6 +18,7 @@ import TokenAssetListModal from './TokenAssetListModal';
 function InputComboBoxSection({ activeTab, selectedToken, changeSelectedToken }) {
 
     const { openConnectModal } = useConnectModal();
+    const { isConnected } = useAccount();
     const [isTokenListModalOpen, changeTokenListModalState] = useState(false);
 
     return (
@@ -64,7 +66,6 @@ function InputComboBoxSection({ activeTab, selectedToken, changeSelectedToken })
                                         height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>
                                     </svg>
-                                    {/* <img src={selectedToken.icon} alt="" height='1em' width='1em' /> */}
                                 </span>
                             </span>
                         </button>
@@ -83,7 +84,12 @@ function InputComboBoxSection({ activeTab, selectedToken, changeSelectedToken })
                 <img className='max-w-none -mx-5' src={StylishDividerSVG} alt="" />
                 <InputSection activeTab={activeTab} />
                 <button onClick={openConnectModal} className="h-14 rounded-lg bg-[#65b3ae] text-md font-medium transition-all disabled:cursor-not-allowed disabled:opacity-50 w-full px-5 py-3 text-base text-black bg-button-primary hover:bg-button-primaryHover disabled:hover:bg-button-disabled" type="button">
-                    Please connect your wallet
+                    {
+                        isConnected ?
+                            activeTab === 'deposit' ? "Deposit Tokens to L2" : "Withdraw Tokens from L2"
+                            :
+                            "Please connect your wallet"
+                    }
                 </button>
             </div>
             <TokenAssetListModal isOpen={isTokenListModalOpen} changeModalState={changeTokenListModalState} selectedToken={changeSelectedToken} />

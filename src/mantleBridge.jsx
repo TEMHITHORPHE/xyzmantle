@@ -18,11 +18,13 @@ import { TOKENLIST_ITEM_INFO } from './utils';
 
 function MantleBridge() {
 
+    const [currentTab, updateActiveTab] = useState('deposit');
     const [depositTabSelectedToken, updateDepositTabSelectedTokenInfo] = useState(TOKENLIST_ITEM_INFO[0]);
     const [withdrawTabSelectedToken, updateWithdrawTabSelectedTokenInfo] = useState(TOKENLIST_ITEM_INFO[0]);
 
     const OnWithdrawTabComboBoxTokenUpdate = (tokenInfo) => {
         updateWithdrawTabSelectedTokenInfo(tokenInfo);
+        // updateActiveTab();
     }
 
     const OnDepositTabComboBoxTokenUpdate = (tokenInfo) => {
@@ -43,32 +45,38 @@ function MantleBridge() {
                             {/* Deposit  */}
                             <Tab as='span' className='w-full'>
                                 {
-                                    ({ selected }) => (
-                                        <button
-                                            id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
-                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
+                                    ({ selected }) => {
+                                        if (selected) updateActiveTab('deposit');
+                                        return (
+                                            <button
+                                                id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
+                                                className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
                                              ring-white ring-opacity-0 ring-offset-0 ring-offset-white focus:outline-none focus:ring-2
                                                `}
-                                        >
-                                            Deposit
-                                        </button>
-                                    )
+                                            >
+                                                Deposit
+                                            </button>
+                                        )
+                                    }
                                 }
                             </Tab>
 
                             {/* Withdraw  */}
                             <Tab as='span' className='w-full'>
                                 {
-                                    ({ selected }) => (
-                                        <button
-                                            id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
-                                            className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
+                                    ({ selected }) => {
+                                        if (selected) updateActiveTab('withdraw');
+                                        return (
+                                            <button
+                                                id="headlessui-tabs-tab-:r2e:" role="tab" type="button" aria-selected="false"
+                                                className={(selected ? 'text-black bg-white ' : ' hover:bg-white/[0.12] text-white bg-transparent ') + ` w-full bg-transparent rounded-lg hover:border-transparent py-2.5 text-sm font-medium transition-all px-2.5
                                              ring-white ring-opacity-0 ring-offset-0 ring-offset-white focus:outline-none focus:ring-2
                                                `}
-                                        >
-                                            Withdraw
-                                        </button>
-                                    )
+                                            >
+                                                Withdraw
+                                            </button>
+                                        )
+                                    }
                                 }
                             </Tab>
 
