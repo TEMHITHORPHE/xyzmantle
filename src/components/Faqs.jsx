@@ -52,10 +52,10 @@ function Faqs() {
                 <Disclosure>
                     {
                         ({ open }) => {
-                            let customOpen = false;
+                            // let customOpen = false;
                             if (open === true) {
                                 changeOpenedPanel(2);   // Update the cuurently opened accordion to itself.
-                                customOpen = true;
+                                // customOpen = true;
                             }
                             console.log(openedPanel);
                             // const customOpen = open &&  ? 
