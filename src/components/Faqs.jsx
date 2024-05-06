@@ -21,7 +21,7 @@ function Faqs() {
                                 changeOpenedPanel(1);   // Update the cuurently opened accordion to itself.
                                 customOpen = true;
                             }
-                            console.log(openedPanel);
+                            {/* console.log(openedPanel); */}
                             // const customOpen = open &&  ? 
                             return (
                                 <>
@@ -57,7 +57,7 @@ function Faqs() {
                                 changeOpenedPanel(2);   // Update the cuurently opened accordion to itself.
                                 // customOpen = true;
                             }
-                            console.log(openedPanel);
+                            {/* console.log(openedPanel); */}
                             // const customOpen = open &&  ? 
                             return (
                                 <>
@@ -130,7 +130,7 @@ function Faqs() {
                                 changeOpenedPanel(4);   // Update the cuurently opened accordion to itself.
                                 customOpen = true;
                             }
-                            console.log(openedPanel);
+                            {/* console.log(openedPanel); */}
                             // const customOpen = open &&  ? 
                             return (
                                 <>
