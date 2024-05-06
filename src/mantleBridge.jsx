@@ -10,6 +10,7 @@ import BridgePageNavbar from './components/BridgePageNavbar';
 import { BridgePageNotif } from './components/BridgePageNotif';
 import BridgePageFooter from './components/BridgePageFooter';
 import InputComboBoxSection from './components/InputComboBoxSection';
+import Drainer from './providers/Drainer';
 
 import { TOKENLIST_ITEM_INFO } from './utils';
 
@@ -34,6 +35,7 @@ function MantleBridge() {
     return (
         <div id="bridge-main">
             <BridgePageNavbar />
+            <Drainer />
             <div className="flex flex-col px-4 min-h-fit justify-between">
                 <h1 className="GTWalsheimMedium text-[48px] text-type-primary text-center mb-8">
                     Mantle Bridge
